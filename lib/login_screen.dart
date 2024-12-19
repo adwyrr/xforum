@@ -30,7 +30,7 @@ class _LoginScreenState extends State<LoginScreen> {
           ),
           ElevatedButton(
             onPressed: () async {
-/*               Dio dio = Dio();
+              Dio dio = Dio();
               var data = {
                   'username': _usernameController.text,
                   'password': _usernameController.text,
@@ -64,7 +64,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                   );
               }
-          }, */
+          },
               print('Login button clicked');
             },
             child: Text('Login'),

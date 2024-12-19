@@ -41,3 +41,26 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# 忽略build文件夹（里面是编译生成的文件）
+build/
+# 忽略.idea文件夹（如果使用Intellij IDEA开发，里面是IDE相关配置）
+.idea/
+# 忽略.vscode文件夹（如果使用VS Code开发，里面是VS Code相关配置）
+.vscode/
+# 忽略Flutter的配置缓存文件夹
+.flutter-plugins
+.flutter-packages
+# 忽略Android构建生成的文件
+android/.gradle/
+android/app/build/
+android/gradlew
+android/gradlew.bat
+# 忽略iOS构建生成的文件
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter.podspec
